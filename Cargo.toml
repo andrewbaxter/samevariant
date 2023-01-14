@@ -1,0 +1,18 @@
+[package]
+name = "samevariant"
+version = "0.0.1"
+edition = "2021"
+license = "ISC"
+description = "Derive enum of same-variant pairs"
+homepage = "https://github.com/andrewbaxter/samevariant"
+repository = "https://github.com/andrewbaxter/samevariant"
+readme = "readme.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+genemichaels = "0.1.15"
+proc-macro2 = "1.0.47"
+quote = "1.0.21"
+syn = "1.0.103"
