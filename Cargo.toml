@@ -1,6 +1,6 @@
 [package]
 name = "samevariant"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 license = "ISC"
 description = "Derive enum of same-variant pairs"
@@ -12,7 +12,7 @@ readme = "readme.md"
 proc-macro = true
 
 [dependencies]
-genemichaels = "0.2"
+genemichaels = "0.3"
 proc-macro2 = "1"
 quote = "1"
-syn = "1"
+syn = "2"
